@@ -95,10 +95,7 @@ func appCommands() []cli.Command {
 					fmt.Println("请输入要删除的文件名")
 					return nil
 				}
-				args := c.Args()
-				var files []string
-				files = append(files, append(args.Tail(), args.First())...)
-				return qn.Delete(files)
+				return qn.Delete(c.Args())
 			},
 		},
 		cli.Command{
