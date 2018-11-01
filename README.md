@@ -3,14 +3,14 @@ git clone https://github.com/guomio/qiniu.cli.git
 ```
 ```go
 // qiniul.cli/qiniu.go
-// 修改以下参数为自己七牛云空间的配置
+// 修改以下七牛云空间的配置参数
 
 const (
-	accessKey = "ecXZ-tsRllsEO6LRu4-Hd9sxxxxxxxx4ZqHPKkwm"
-	secretKey = "pktAJPtQp_j4EpozzWx9XPzxxxxxxxxVbKTiAUsa"
-	bucket    = "hexo"
-	origin    = "http://xxxxxxxxx.bkt.clouddn.com/"
-	expires   = 7200
+    accessKey = "ecXZ-tsRllsEO6LRu4-Hd9sxxxxxxxx4ZqHPKkwm"
+    secretKey = "pktAJPtQp_j4EpozzWx9XPzxxxxxxxxVbKTiAUsa"
+    bucket    = "hexo"
+    origin    = "http://xxxxxxxxx.bkt.clouddn.com/"
+    expires   = 7200
 )
 ```
 
